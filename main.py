@@ -5,9 +5,6 @@ import subprocess as sp
 
 def main():
     root = input("Directory to check> ")
-    if not root:
-        print("No directory given, using default (~/dev)")
-        root = "/home/lucien/dev"
 
     not_repo = []
     no_remote = []
